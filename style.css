@@ -21,11 +21,15 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  /*background-image: url('sciezka');*/
+  background-image: url('./img/bg.jpg');
+  background-size: cover;
+  background-position: fixed;
+  color: #fff;
 }
 
 header section {
   margin: 0 auto;
+  max-width: 640px;
 }
 
 header img {
@@ -36,6 +40,12 @@ header img {
 
 h1 {
   margin: 1em 0;
+  text-transform: uppercase;
+}
+
+h3 {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 main {
@@ -48,7 +58,7 @@ main {
 .course .title {
 }
 
-.course .descrition {
+.course .description {
 }
 
 .school span {
