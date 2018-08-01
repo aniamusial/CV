@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: 'Raleway', sans-serif;  
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  /*background-image: url('sciezka');*/
+}
+
+header section {
+  margin: 0 auto;
+}
+
+header img {
+  border-radius: 100%;
+  border: 1px solid #fff;
+  max-width: 150px;
+}
+
+h1 {
+  margin: 1em 0;
+}
+
+main {
+  max-width: 1140px;
+}
+
+.course {
+}
+
+.course .title {
+}
+
+.course .descrition {
+}
+
+.school span {
+  color: #A7B8BF;
+}
+
+footer {
+ padding: 1em;
+}
