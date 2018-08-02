@@ -6,7 +6,7 @@ body {
 }
 
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
 
 section{
@@ -52,13 +52,33 @@ main {
   max-width: 1140px;
 }
 
+main section {
+    border-bottom: 1px solid #509e98;
+}
+
+main section:last-child {
+    border-bottom: none;
+}
+
 .course {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .course .title {
+    font-weight: bold;
+    color: #509e98;
+    flex: 0 0 33.3%;
+    max-width: 33%;
 }
 
 .course .description {
+    flex: 0 0 66.6%;
+    max-width: 66%;
+}
+
+.course .descrition p {
+    padding-left: 1em;
 }
 
 .school span {
