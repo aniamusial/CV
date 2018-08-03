@@ -6,7 +6,8 @@ body {
 }
 
 article {
-  padding: 0 1em;
+  padding: 1em 1em;
+
 }
 
 section{
@@ -98,8 +99,22 @@ main section:last-child {
     padding-right: 0.5em;
     color:  #509e98;
 }
-.school span {
-  color: #A7B8BF;
+.school span.date {
+  color: #509e98;
+}
+
+.jobs span.date {
+  color: #509e98; 
+}
+
+ul.job-description {
+    list-style-type: none;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
 }
 
 footer {
