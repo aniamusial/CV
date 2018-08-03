@@ -104,7 +104,7 @@ main section:last-child {
 }
 
 .jobs span.date {
-  color: #509e98; 
+    color: #509e98; 
 }
 
 ul.job-description {
@@ -118,7 +118,40 @@ ul.job-description li:before{
 }
 
 footer {
- padding: 1em;
+    padding: 1em;
+    text-align: right;
+    background-color: #99b9c4;
+    color: #fff;
 }
 
+a {
+    color: #235160
+}
 
+a:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
