@@ -1,55 +1,59 @@
+
 body {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.8em;
-  font-family: 'Raleway', sans-serif;  
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8em;  
 }
 
 article {
-  padding: 1em 1em;
-
+    padding: 1em 1em;
 }
 
-section{
-  margin: 1em;
-  padding: 1em;
+section {
+    margin: 1em;
+    padding: 1em;
 }
 
 header, main, footer {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
+/* HEADER */
+
 header {
-  padding: 2em;
-  text-align: center;
-  background-image: url('./img/bg.jpg');
-  background-size: cover;
-  background-position: fixed;
-  color: #fff;
+    padding: 2em;
+    text-align: center;
+    color: #fff;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-position: fixed;
 }
 
 header section {
-  margin: 0 auto;
-  max-width: 50vw;
+    margin: 0 auto;
+    max-width: 50vw;
 }
 
 header img {
-  border-radius: 100%;
-  border: 1px solid #fff;
-  max-width: 150px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    max-width: 150px;
 }
 
 h1 {
-  margin: 1em 0;
-  text-transform: uppercase;
+    margin: 1em 0;
+    text-transform: uppercase;
 }
 
 h3 {
     text-transform: uppercase;
 }
 
+/* MAIN */
+
 main {
-  max-width: 1140px;
+    max-width: 1140px;
 }
 
 main section {
@@ -59,6 +63,8 @@ main section {
 main section:last-child {
     border-bottom: none;
 }
+
+/* COURSE */
 
 .course {
     display: flex;
@@ -81,6 +87,8 @@ main section:last-child {
     padding-left: 1em;
 }
 
+/* SKILLS */
+
 .skills {
     display: flex;
 }
@@ -99,9 +107,14 @@ main section:last-child {
     padding-right: 0.5em;
     color:  #509e98;
 }
+
+/* SCHOOL */
+
 .school span.date {
-  color: #509e98;
+    color: #509e98;
 }
+
+/* EXPERIENCE */
 
 .jobs span.date {
     color: #509e98; 
@@ -112,10 +125,12 @@ ul.job-description {
 }
 
 ul.job-description li:before{
-  content: "✔";
-  padding-right: 0.5em;
-  color: #509e98;
+    content: "✔";
+    padding-right: 0.5em;
+    color: #509e98;
 }
+
+/* FOOTER */
 
 footer {
     padding: 1em;
@@ -131,6 +146,8 @@ a {
 a:hover {
     opacity: 0.5;
 }
+
+/* RWD */
 
 @media only screen and (max-width: 768px) {
   .course {
