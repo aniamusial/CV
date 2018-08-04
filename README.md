@@ -5,7 +5,7 @@ My CV created in HTML/CSS
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Demo](#demo)
 * [Status](#status)
 * [Contact](#contact)
 
