@@ -13,7 +13,7 @@ My CV created in HTML/CSS
 Simple CV of beginner front-end developer. 
 
 ## Screenshots
-![Example screenshot](./img/screenshot)
+![Example screenshot](./img/screenshot1.png)
 
 ## Technologies
 * HTML 5
